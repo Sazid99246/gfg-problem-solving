@@ -5,7 +5,7 @@ public class Java1DAnd2DArray {
     public static ArrayList<Integer> array(int[][] a, int[] b, int n) {
         int sum = 0;
         for (int i = 0; i < n; i++) {
-                sum += a[i][i];
+            sum += a[i][i];
         }
 
         int max = b[0];
@@ -15,8 +15,7 @@ public class Java1DAnd2DArray {
             }
         }
 
-        ArrayList<Integer> result = new ArrayList<>() {
-        };
+        ArrayList<Integer> result = new ArrayList<>();
         result.add(sum);
         result.add(max);
 
