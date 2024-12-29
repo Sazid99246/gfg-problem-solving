@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class CommonElements {
     public static ArrayList<Integer> commonElements(int[] a, int[] b) {
