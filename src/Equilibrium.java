@@ -1,19 +1,18 @@
 public class Equilibrium {
     public static int findEquilibrium(int[] arr) {
         int rightSum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            rightSum += arr[i];
+        for (int j : arr) {
+            rightSum += j;
         }
 
         int leftSum = 0;
         for (int i = 0; i < arr.length; i++) {
             rightSum -= arr[i]; // Update rightSum for the current element
-            if (leftSum == rightSum) {
-                return i; // Return the index where equilibrium is found
-            }
+            if (leftSum == rightSum) return i; // Return the index where equilibrium is found
             leftSum += arr[i]; // Update leftSum for the current element
         }
-        return -1; // No equilibrium point found
+        int i = -1;
+        return i; // No equilibrium point found
     }
 
     public static void main(String[] args) {
