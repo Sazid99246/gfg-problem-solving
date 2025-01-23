@@ -1,11 +1,3 @@
-class Node {
-    int data;
-    Node next;
-    Node(int value) {
-        this.value = value;
-    }
-}
-
 public class RotateLinkedLIst {
     public Node rotate(Node head, int k) {
         if(head==null || k==0) return head;

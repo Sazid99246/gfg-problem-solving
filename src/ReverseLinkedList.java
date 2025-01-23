@@ -1,8 +1,11 @@
 class Node {
     int data;
-    Node next;
-    Node(int value) {
-        this.value = value;
+    Node next, random;
+
+    Node(int d)
+    {
+        data = d;
+        next = random = null;
     }
 }
 
