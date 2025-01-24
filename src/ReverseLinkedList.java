@@ -1,14 +1,3 @@
-class Node {
-    int data;
-    Node next, random;
-
-    Node(int d)
-    {
-        data = d;
-        next = random = null;
-    }
-}
-
 public class ReverseLinkedList {
     Node ReverseList(Node head) {
         Node prev = null;
