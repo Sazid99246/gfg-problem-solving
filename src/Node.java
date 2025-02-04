@@ -4,7 +4,7 @@ public class Node {
 
     Node(int d)
     {
-        data = d;
+        this.data = d;
         next = random = null;
         left = right = null;
     }
