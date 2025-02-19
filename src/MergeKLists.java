@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.PriorityQueue;
+
 public class MergeKLists {
     Node mergeKLists(List<Node> arr) {
         // Add your code here.
