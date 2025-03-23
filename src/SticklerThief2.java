@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class SticklerThief2 {
-    int f1(int ind, int arr[], int dp[], boolean fl) {
+    int f1(int ind, int[] arr, int[] dp, boolean fl) {
         if (!fl) if (ind < 0) return 0;
         if (fl) if (ind <= 0) return 0;
 
